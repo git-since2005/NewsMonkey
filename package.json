@@ -1,6 +1,5 @@
 {
   "homepage": "https://git-since2005.github.io/NewsMonkey",
-  "name": "new-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
