@@ -1,0 +1,125 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #121212; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+nav{
+  background-color: #ebebeb;
+}
+
+.appName{
+  background-color: #ebebeb;
+  text-align: center;
+  font-family: 'Times New Roman';
+  height: max-content ;
+  box-shadow: 0px 10px 5px  rgb(160, 160, 160);
+  position: sticky;
+  margin-bottom: 50px;
+}
+.appName p{
+  font-size: 46px;
+  margin: 0;
+  font-family: 'Poppins';
+}
+.container{
+  width: 273.52px;
+  height: 315.81px;
+  outline: none;
+  -webkit-user-select: none;
+  margin-bottom: -4px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 0;
+  transition: .15s;
+}
+
+.img{
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+}
+
+.container:hover{
+  transform: scale(1.14);
+  z-index: 1;
+}
+
+.buttons{
+  margin: 26px auto 18px auto;
+  /* gap: 200px; */
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+}
+/* 1140 1202.1 */
+.buttons button{
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  background-color: #b23f45;
+  padding: 10px;
+}
+.buttons button:hover{
+  background-color: #a33137;
+}
+
+.source{
+  font-size: small;
+  font-weight: 600;
+  font-family: "Roboto";
+}
+h3{
+  font-size: 24px;
+}
+.cover{
+  height: 170px;
+  width: 253px;
+  padding: 0;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.headlines{
+  font-family: 'Roboto';
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.headlines:hover{
+  color: black;
+  text-decoration: underline;
+}
+
+/* Cursor */
+.cursor{
+  animation: easy infinite .5s;
+}
+
+@keyframes easy {
+  from{color: black;}
+  to{color: transparent;}
+}
